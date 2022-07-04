@@ -29,31 +29,31 @@
 
 class Bus : Vehicle
 {
-    public Bus(double ini, double incre, double max)
+    public Bus()
     {
-        initial = ini;
-        increment = incre;
-        maximum = max;
+        initial = 6;
+        increment = 1.5;
+        maximum = 30;
     }
 }
 
 class Car : Vehicle
 {
-    public Car(double ini, double incre, double max)
+    public Car()
     {
-        initial = ini;
-        increment = incre;
-        maximum = max;
+        initial = 4;
+        increment = 1;
+        maximum = 20;
     }
 }
 
 class Bike : Vehicle
 {
-    public Bike(double ini, double incre, double max)
+    public Bike()
     {
-        initial = ini;
-        increment = incre;
-        maximum = max;
+        initial = 2;
+        increment = 0.5;
+        maximum = 10;
     }
 }
 
@@ -62,9 +62,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Vehicle bus = new Bus(6, 1.5, 30);
-        Vehicle car = new Car(4, 1, 20);
-        Vehicle bike = new Bike(2, 0.5, 10);
+        Vehicle bus = new Bus();
+        Vehicle car = new Car();
+        Vehicle bike = new Bike();
         Console.WriteLine("In case of Bus: ");
         bus.Cal(24);
         bus.Cal(5);
