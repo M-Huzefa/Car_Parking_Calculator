@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace car_parking_calculator
 {
@@ -7,7 +7,6 @@ namespace car_parking_calculator
         protected double initial;
         protected double increment;
         protected double maximum;
-        protected double time = 0;
 
         public void Calculator (double time)
         {
