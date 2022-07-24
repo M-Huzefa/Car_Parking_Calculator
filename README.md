@@ -1,2 +1,2 @@
 # CarParkingCalculator
-CureMD Assignment
+First Week Project at CureMD
